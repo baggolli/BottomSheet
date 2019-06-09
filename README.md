@@ -24,7 +24,7 @@ dependencies {
 
 // Just Do the below thing. 
 
-Create your own layout and pass the background color and minimum height.Here minimum is calculated in percent internally so just specify the value. Eg:40.
+Create your own layout and pass the background color and minimum height.Here minimum height is calculated in percent internally so just specify the value. Eg:40.
 
 val bottomSheetDialogFragment = CustomBottomSheet.newInstance(R.layout.activity_main,
         ContextCompat.getColor(this,R.color.colorAccent),80)
